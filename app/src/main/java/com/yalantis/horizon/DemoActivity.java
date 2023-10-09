@@ -1,6 +1,7 @@
 package com.yalantis.horizon;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
@@ -117,6 +118,7 @@ public class DemoActivity extends AppCompatActivity {
         }
     }
 
+    @SuppressLint("MissingPermission")
     private void initRecorder() {
         final int bufferSize = 2 * AudioRecord.getMinBufferSize(RECORDER_SAMPLE_RATE,
                 RECORDER_CHANNELS, RECORDER_AUDIO_ENCODING);
