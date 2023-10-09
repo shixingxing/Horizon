@@ -4,7 +4,7 @@ import android.app.ActivityManager;
 import android.content.Context;
 import android.content.pm.ConfigurationInfo;
 import android.opengl.GLSurfaceView;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 import com.yalantis.audio.lib.AudioUtil;
 import com.yalantis.waves.gl.BezierRenderer;

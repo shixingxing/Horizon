@@ -1,7 +1,7 @@
 package com.yalantis.waves.util;
 
 import android.graphics.Color;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 /**
  * Created by Artem Kholodnyi on 1/27/16.

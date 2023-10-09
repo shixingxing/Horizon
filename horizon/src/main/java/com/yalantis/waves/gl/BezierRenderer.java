@@ -3,8 +3,8 @@ package com.yalantis.waves.gl;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.opengl.Matrix;
-import android.support.annotation.ColorInt;
-import android.support.annotation.Size;
+import androidx.annotation.ColorInt;
+import androidx.annotation.Size;
 
 import com.yalantis.waves.R;
 import com.yalantis.waves.util.ColorUtil;
